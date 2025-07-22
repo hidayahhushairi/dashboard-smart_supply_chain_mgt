@@ -30,12 +30,43 @@ Supply chains have always been vulnerable to disruptions and has to adapt unfors
 ### Result :
 Testing phase is conducted among 30 respondents that work in logistic industry to evaluate real-time metrics performance. The outcome of testing improves system modification.
 (1) Functionality Testing : 96.7% of respondents satisfied with their experience using this dashboard.
-(2) Usability Testing : 86.7% of respondents intriguued to suggest the dashboard to their department.
+(2) Usability Testing : 86.7% of respondents intrigued to suggest the dashboard to their department.
+
+Overview Page : <img width="943" height="529" alt="image" src="https://github.com/user-attachments/assets/1de9354c-4a36-47ed-ad02-920bc5791575" />
+Sales Page : <img width="931" height="521" alt="image" src="https://github.com/user-attachments/assets/33fb6329-ae15-40a0-adb0-e8ae02690f00" />
+Sales Summary Analysis : <img width="936" height="523" alt="image" src="https://github.com/user-attachments/assets/75a88b34-e983-4b61-839a-d943148e4f08" />
+Inventory Page : <img width="935" height="524" alt="image" src="https://github.com/user-attachments/assets/e32b8427-e699-4f35-b9df-6f9b829f6c88" />
+Fraudulent Supplier Page : <img width="906" height="508" alt="image" src="https://github.com/user-attachments/assets/2826a5b5-86f7-41ec-8db6-130483a84e3c" />
+Purchases Page : <img width="922" height="518" alt="image" src="https://github.com/user-attachments/assets/952823e6-6a48-4e9e-b38b-05055a310410" />
 
 Achieved Reserch Objectives (1) : Discovered risk factors that supply chain management must be aware of.
 -  Sales & Price of Inventory
--  Sales & Proffit
--  Sales & Delivery Status
--  Sales & Transaction Type, Shippingg Delivery Risk
+  <img width="593" height="283" alt="image" src="https://github.com/user-attachments/assets/1147b5e7-8b65-4752-b25c-ab6615784790" />
+
+
+-  Sales & Profit
+  <img width="493" height="323" alt="image" src="https://github.com/user-attachments/assets/4d0838bb-479d-498e-af70-8378dfc7cd7d" />
+The line chart above reveals the correlation of sales per agent and order profit per order by quarter. Result indicates sales per 
+agent and total order profit per order are positively correlated with each other. Sales per Agent and Order Profit Per Order diverged the 
+most during Quarter 1 and Quarter 4. Sales per Agent were $2,603,758.43 higher than Order Profit Per Order during Quarter 1. 
+The decrease sales made by international sales agent cause order profit per order become decrease.
+
+-  Sales & Delivery Status & Shippingg Delivery Risk
+  <img width="264" height="302" alt="image" src="https://github.com/user-attachments/assets/b6db46a0-2844-4ba4-9a74-0e746748f344" />
 
 Achieved Reserch Objectives (2) : Identified fraudulent suppliers buying pattern.
+
+(*) <img width="673" height="443" alt="image" src="https://github.com/user-attachments/assets/4e6a92a7-c5b6-4241-92d0-815ee8a19c29" />
+Line and clustered column chart allow various series to be directly compared. The figure above describes the benefit of suspected 
+fraudulent suppliers order and total sales per agent are negatively correlated with each other. International sales agent achieves the 
+highest sales during May ($71592.11 million dollars) while the total 46 benefit of suspected fraudulent suppliers order is during August
+($96662.56 million dollars). This indicates the increase fraudulent suppliers order can cause the total sales made by international sales
+agent drop.
+
+(*) <img width="592" height="729" alt="image" src="https://github.com/user-attachments/assets/9b94e7b9-ef85-4d8f-8475-451a190d5e4e" />
+Table chart shows the fraudulent users buying pattern. It includes the record of agent staffs name on duty, the supplier id, and how 
+many times the fraudulent suppliers repeating their fake orders. Result founds the fraudulent suppliers has repeat their fake orders 
+up to 22 times attempt. The repeat order column is formatted by yellow colour according to the minimum, center and maximum 
+value. It will become darker yellow for the maximum value of repeat order. This chart assists users to identify fraud customers across 
+multiple tiers of supply chain business. Detecting one of the supply chain risk factors at early stage can lower the tendencies of fraud 
+buyer among suppliers.
